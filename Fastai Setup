@@ -14,3 +14,6 @@ On Mac:
 7. Start Jupyter Notebook: jupyter notebook
 
 Make sure you activate the environment every time before starting the jupyter notebook
+
+
+On Windows the commands have to be run in the Anaconda Prompt console. The Prompt console must be runned as an administrator.
