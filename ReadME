@@ -1,3 +1,32 @@
+This repository creates a ULMFiT model for tweet datasets. In this ReadME file the code files and folder structure is shortly explained as well as the setup procedure for the right PyTorch and fastai version.
+
+Code Files:
+
+  'model': 
+standard ULMFiT (Howard and Ruder 2018) with Wikitext-103 as pretraining dataset and Twitter US Airline Sentiment dataset                  from Kaggle for fine-tuning and sentiment classification.
+
+  'model_ext_pretraining':
+Extension of standard ULMFiT part 1: Wikitext-103 language model extended by fine-tuning it on Sentiment140 dataset from Kaggle.
+
+  'model_ext_small_vocab':
+Extension of standard ULMFiT part 2: extendeded language model used as basis for sentiment classification on Twitter US Airline Sentiment dataset, using the smaller vocabulary of the Twitter US Airline Sentiment dataset.
+
+  'model_ext_large_vocab':
+Extension of standard ULMFiT part 3: extendeded language model used as basis for sentiment classification on Twitter US Airline Sentiment dataset, keeping the vocabulary of the Sentiment140 dataset.
+
+  'model_forward_pass':
+Explaining the ULMFiT model process by an example tweet. Output and shape of each specific model layer is provided to get a detailed understanding how textual data is processed by a language model.
+
+  'functions':
+Code file with auxiliary in order to keep the code short in the model files.
+
+
+Folder structure:
+
+
+
+
+
 Fastai setup:
 
 As we are working with the outdated version fastai 0.7.0. due to functionality issues, there are a few steps that need to be executed before starting with the code.
