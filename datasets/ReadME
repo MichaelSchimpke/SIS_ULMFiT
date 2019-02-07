@@ -1,0 +1,18 @@
+The datasets for the code files have to be downloaded from kaggle and stored with the following names:
+
+sentiment140.csv:
+
+1.6 million labeled tweets dataset
+https://www.kaggle.com/kazanova/sentiment140
+
+
+gop_debate.csv:
+
+~15000 tweets about the GOP primaries
+https://www.kaggle.com/crowdflower/first-gop-debate-twitter-sentiment
+
+
+us_airline.csv:
+
+~15000 tweets about american airline companies
+https://www.kaggle.com/crowdflower/twitter-airline-sentiment
