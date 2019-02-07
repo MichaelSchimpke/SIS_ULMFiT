@@ -24,7 +24,7 @@ Code file with auxiliary functions in order to keep the code short in the model 
 Folder structure:
 
   'clas', 'lm', 'Test_lm', 'prediction':
-Empty default folders where the model files store the tokenized tweet data in order to easy access them later.
+Empty default folders where the model files store the tokenized tweet data in order to easy access them later. The code will automatically store the files in these folders and create a model folder with the saved learners.
 
   'datasets':
 Folder where the used datasets from Kaggle have to be stored in so that the model files can access them.
@@ -35,6 +35,8 @@ Folder where the parameters from the pretrained Wikitext-103 language model have
   'images':
 Images for the blogpost
 
+  'model_extension_parameters':
+'clas' and 'lm' folders for the files 'model_ext_pretraining', 'model_ext_small_vocab' and 'model_ext_large_vocab'. The code will automatically store the files in these folders and create a model folder with the saved learners.
 
 
 Fastai setup:
