@@ -1,4 +1,4 @@
-This repository creates a ULMFiT model for tweet datasets. In this ReadME file the code files and folder structure is shortly explained as well as the setup procedure for the right PyTorch and fastai version.
+This repository creates a ULMFiT model (by Howard & Ruder 2018) for tweet datasets. In this ReadME file the code files and folder structure is shortly explained as well as the setup procedure for the right PyTorch and fastai version.
 
 Code Files:
 
